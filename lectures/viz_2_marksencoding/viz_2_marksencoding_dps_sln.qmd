@@ -13,7 +13,7 @@ format:
 
 
 ## Making `precipitation` ordinal: solution {background-color="aliceblue"}
-```{.python}
+```{python}
 import altair as alt
 from vega_datasets import data as vega_data
 seattle = vega_data.seattle_weather()
